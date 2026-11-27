@@ -10,3 +10,10 @@ Maven home: C:\Program Files\apache-maven-3.10.2-bin
 Java version: 25.0.5.1, vendor: Microsoft, runtime: C:\Program Files\Microsoft\jdk-25.0.5.102-hotspot
 Default locale: fr_FR, platform encoding: UTF-8, time zone: Africa/Dakar
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+
+Étape 4:
+1)    DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
+      Did not match:
+         - EmbeddedDataSource found supported pooled data source (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+2) Le projet inclut Spring Data JPA et H2 configure automatiquement une base H2 intégrée, généralement en mémoire. Elle sert de source de données à JPA

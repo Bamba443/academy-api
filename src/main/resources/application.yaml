@@ -1,3 +1,15 @@
 spring:
   application:
     name: academy-api
+  profiles:
+    active: dev
+  jpa:
+    open-in-view: false
+
+server:
+  port: 8080
+
+app:
+  academy:
+    nom: "Supdeco Academy"
+    annee-universitaire: 2025-2026
